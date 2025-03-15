@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap - JQuery</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./CSS/estilo.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
+            <a class="navbar-brand" href="index.html">Logo da empresa</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Alterna navegação"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aula01.html">Aula 01</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./pagina2.html">Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <div class="row mb-3">
+        <div class="col-md-12 col-sm-12 mb-2">
+            <p>
+                <a
+                    href="https://etecitu.cps.sp.gov.br/"
+                    id="link"
+                    title="Etec Itu"
+                    target="_blank"
+                >Etec Itu</a>
+            </p>
+            <div class="container mb-3">
+                <div class="row mb-3">
+                    <div class="col-md-12 col-sm-12 mb-2">
+                        <div class="alert alert-primary" role="alert" id="alerta1">
+                            <p>A Etec é uma instituição que fornece cursos profissionalisantes junto do ensino médio regular.</p>
+                        </div>
+                        <div class="alert alert-success" role="alert" id="alerta2">
+                            <p>A Fatec é uma faculdade estadual de São Paulo que fornece ensino superior principalmente na area de técnologia.</p>
+                        </div>
+                        <div class="alert alert-warning" role="alert" id="alerta3">
+                            <p>O Centro Estadual de Educação Tecnológica Paula Souza é uma autarquia do governo do estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação do Estado de São Paulo, que administra as 220 Escolas Técnicas e as 66 Faculdades de Tecnologia do estado.</p>
+                        </div>
+            <button id="alternar1" class="btn btn-primary">
+                Alternar para Etec Itu
+            </button>
+            <button id="alternar2" class="btn btn-primary">
+                Alternar para Fatec Itu
+            </button>
+            <button id="alternar3" class="btn btn-primary">
+                Alternar para CPS
+            </button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="./JS/pag2.JS"></script>
+    </body>
+</html>
