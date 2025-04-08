@@ -50,5 +50,5 @@ $("#calcular").click(function () {
 
     $("#fatorial")
         .text("Fatorial: " + fatorial)
-        .css({ 'font-weight': 'bold', 'font-size': '20pt', 'color': 'green' });
+        .css({ 'font-weight': 'bold', 'font-size': '20pt', 'color': '#ccc' });
 });
